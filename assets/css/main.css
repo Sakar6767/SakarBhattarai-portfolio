@@ -1267,9 +1267,27 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
+/*
 .starter-section {
-  /* Add your styles here */
+  
+}
+*/
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bgimage.jpg') no-repeat center center/cover !important;
+}
+
+#hero img {
+  display: none !important;
+}
+
+#hero h2 {
+  color: #ffffff !important;
+}
+
+[data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
 }
